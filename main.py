@@ -1,3 +1,11 @@
+"""Entry for make.fun "The poem about permission".
+
+Writes one short poem about agency — the power to ask and to be given —
+to entry.txt in MAKEFUN_OUTPUT_DIR (default /output). The text is
+deterministic, plain UTF-8, 1-280 characters, and the program makes no
+network calls and never removes the output directory.
+"""
+
 import os
 
 POEM = (
@@ -5,6 +13,8 @@ POEM = (
     "The gate had none \u2014 just a latch\n"
     "worn smooth by hands that asked,\n"
     "and a hinge that learned to give.\n"
+    "I asked again. The latch lifted.\n"
+    "The asking was the key all along.\n"
 )
 
 
